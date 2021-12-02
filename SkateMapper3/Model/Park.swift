@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import MapKit
 
 struct Park: Decodable, Identifiable{
     let id: String
@@ -25,4 +26,8 @@ struct Park: Decodable, Identifiable{
     let type: String
     let lighting: String
     let surface: String
+    
+    func getCoord() -> CLLocationCoordinate2D {
+        return  CLLocationCoordinate2D(latitude: Double(latitude)!, longitude: Double(longitude)!)
+    }
 }
