@@ -28,6 +28,10 @@ struct Park: Decodable, Identifiable{
     let surface: String
     
     func getCoord() -> CLLocationCoordinate2D {
-        return  CLLocationCoordinate2D(latitude: Double(latitude)!, longitude: Double(longitude)!)
+        
+        guard let lat = Double(latitude), let lng = Double(longitude) else{
+            return CLLocationCoordinate2D(latitude: 9, longitude: -9)
+        }
+        return  CLLocationCoordinate2D(latitude:lat, longitude: lng)
     }
 }

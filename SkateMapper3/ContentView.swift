@@ -12,9 +12,21 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(vm.parks) { park in
-                    NavigationLink(destination: DetailView(park: park)) {
-                        Text(park.name)
+                
+                ForEach(vm.parks) { state in
+                    
+            
+                    Section(state.id){
+                        
+                
+                        
+                        ForEach(state.parks) { park in
+                            
+                            
+                            NavigationLink(destination: DetailView(park: park)) {
+                                Text(park.name)
+                            }
+                        }
                     }
                 }
             }
@@ -27,7 +39,7 @@ struct ContentView: View {
 }
 
 class ContentViewModel: ObservableObject {
-    @Published var parks = [Park]()
+    @Published var parks = [UIPark]()
     @MainActor func fetchData() async {
         self.parks = await FetchFactory.shared.fetchData()
     }
