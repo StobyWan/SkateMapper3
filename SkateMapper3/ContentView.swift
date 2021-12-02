@@ -34,12 +34,7 @@ struct ContentView: View {
 class ContentViewModel: ObservableObject {
     @Published var parks = [Park]()
     @MainActor func fetchData() async {
-        do {
-            let (data, _ ) = try await URLSession.shared.data(from: URL(string: Constants.API.url)!)
-            self.parks = try JSONDecoder().decode([Park].self, from: data)
-        } catch {
-            print("error \(error) ")
-        }
+        self.parks = await FetchFactory.shared.fetchData()
     }
 }
 

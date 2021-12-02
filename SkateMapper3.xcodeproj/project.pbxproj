@@ -16,6 +16,8 @@
 		C61C48092758617500E6EB54 /* SkateMapper3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C48082758617500E6EB54 /* SkateMapper3UITestsLaunchTests.swift */; };
 		C61C4817275865CC00E6EB54 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C4816275865CC00E6EB54 /* Park.swift */; };
 		C61C481927586BCF00E6EB54 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C481827586BCF00E6EB54 /* Constants.swift */; };
+		C61C481B27586E4F00E6EB54 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C61C481A27586E4F00E6EB54 /* README.md */; };
+		C61C481E2758708500E6EB54 /* FetchFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C481D2758708500E6EB54 /* FetchFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		C61C48082758617500E6EB54 /* SkateMapper3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateMapper3UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C61C4816275865CC00E6EB54 /* Park.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
 		C61C481827586BCF00E6EB54 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C61C481A27586E4F00E6EB54 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C61C481D2758708500E6EB54 /* FetchFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		C61C47DF2758617400E6EB54 = {
 			isa = PBXGroup;
 			children = (
+				C61C481A27586E4F00E6EB54 /* README.md */,
 				C61C47EA2758617400E6EB54 /* SkateMapper3 */,
 				C61C47FB2758617500E6EB54 /* SkateMapper3Tests */,
 				C61C48052758617500E6EB54 /* SkateMapper3UITests */,
@@ -98,6 +103,7 @@
 		C61C47EA2758617400E6EB54 /* SkateMapper3 */ = {
 			isa = PBXGroup;
 			children = (
+				C61C481C2758707100E6EB54 /* Service */,
 				C61C4815275865BE00E6EB54 /* Model */,
 				C61C47EB2758617400E6EB54 /* SkateMapper3App.swift */,
 				C61C47ED2758617400E6EB54 /* ContentView.swift */,
@@ -139,6 +145,14 @@
 				C61C4816275865CC00E6EB54 /* Park.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C61C481C2758707100E6EB54 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C61C481D2758708500E6EB54 /* FetchFactory.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61C481B27586E4F00E6EB54 /* README.md in Resources */,
 				C61C47F32758617500E6EB54 /* Preview Assets.xcassets in Resources */,
 				C61C47F02758617500E6EB54 /* Assets.xcassets in Resources */,
 			);
@@ -272,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C61C4817275865CC00E6EB54 /* Park.swift in Sources */,
+				C61C481E2758708500E6EB54 /* FetchFactory.swift in Sources */,
 				C61C47EE2758617400E6EB54 /* ContentView.swift in Sources */,
 				C61C47EC2758617400E6EB54 /* SkateMapper3App.swift in Sources */,
 				C61C481927586BCF00E6EB54 /* Constants.swift in Sources */,
