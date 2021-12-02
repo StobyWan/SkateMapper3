@@ -24,6 +24,11 @@ struct DetailView: View {
             }
             .edgesIgnoringSafeArea(.all)
             Text(park.name)
+            HStack {
+                Text(park.surface)
+                Text(park.type)
+            }
+            Text(park.fullAddress)
                
         }
     }
