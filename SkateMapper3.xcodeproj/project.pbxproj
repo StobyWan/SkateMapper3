@@ -107,7 +107,7 @@
 		C61C47EA2758617400E6EB54 /* SkateMapper3 */ = {
 			isa = PBXGroup;
 			children = (
-				C61C481C2758707100E6EB54 /* Service */,
+				C61C481C2758707100E6EB54 /* Factory */,
 				C61C4815275865BE00E6EB54 /* Model */,
 				C61C47EB2758617400E6EB54 /* SkateMapper3App.swift */,
 				C61C47ED2758617400E6EB54 /* ContentView.swift */,
@@ -153,12 +153,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C61C481C2758707100E6EB54 /* Service */ = {
+		C61C481C2758707100E6EB54 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
 				C61C481D2758708500E6EB54 /* FetchFactory.swift */,
 			);
-			path = Service;
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

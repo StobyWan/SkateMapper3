@@ -29,7 +29,6 @@ struct DetailView: View {
                 Text(park.type)
             }
             Text(park.fullAddress)
-               
         }
     }
 }
