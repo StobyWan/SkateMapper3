@@ -18,6 +18,7 @@
 		C61C481927586BCF00E6EB54 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C481827586BCF00E6EB54 /* Constants.swift */; };
 		C61C481B27586E4F00E6EB54 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C61C481A27586E4F00E6EB54 /* README.md */; };
 		C61C481E2758708500E6EB54 /* FetchFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C481D2758708500E6EB54 /* FetchFactory.swift */; };
+		C61C482027587F5100E6EB54 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C481F27587F5100E6EB54 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		C61C481827586BCF00E6EB54 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C61C481A27586E4F00E6EB54 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C61C481D2758708500E6EB54 /* FetchFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchFactory.swift; sourceTree = "<group>"; };
+		C61C481F27587F5100E6EB54 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				C61C47EF2758617500E6EB54 /* Assets.xcassets */,
 				C61C47F12758617500E6EB54 /* Preview Content */,
 				C61C481827586BCF00E6EB54 /* Constants.swift */,
+				C61C481F27587F5100E6EB54 /* DetailView.swift */,
 			);
 			path = SkateMapper3;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C61C4817275865CC00E6EB54 /* Park.swift in Sources */,
+				C61C482027587F5100E6EB54 /* DetailView.swift in Sources */,
 				C61C481E2758708500E6EB54 /* FetchFactory.swift in Sources */,
 				C61C47EE2758617400E6EB54 /* ContentView.swift in Sources */,
 				C61C47EC2758617400E6EB54 /* SkateMapper3App.swift in Sources */,
