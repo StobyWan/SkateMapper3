@@ -14,6 +14,8 @@
 		C61C47FD2758617500E6EB54 /* SkateMapper3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C47FC2758617500E6EB54 /* SkateMapper3Tests.swift */; };
 		C61C48072758617500E6EB54 /* SkateMapper3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C48062758617500E6EB54 /* SkateMapper3UITests.swift */; };
 		C61C48092758617500E6EB54 /* SkateMapper3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C48082758617500E6EB54 /* SkateMapper3UITestsLaunchTests.swift */; };
+		C61C4817275865CC00E6EB54 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C4816275865CC00E6EB54 /* Park.swift */; };
+		C61C481927586BCF00E6EB54 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C481827586BCF00E6EB54 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C61C48022758617500E6EB54 /* SkateMapper3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkateMapper3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61C48062758617500E6EB54 /* SkateMapper3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateMapper3UITests.swift; sourceTree = "<group>"; };
 		C61C48082758617500E6EB54 /* SkateMapper3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateMapper3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C61C4816275865CC00E6EB54 /* Park.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
+		C61C481827586BCF00E6EB54 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +98,12 @@
 		C61C47EA2758617400E6EB54 /* SkateMapper3 */ = {
 			isa = PBXGroup;
 			children = (
+				C61C4815275865BE00E6EB54 /* Model */,
 				C61C47EB2758617400E6EB54 /* SkateMapper3App.swift */,
 				C61C47ED2758617400E6EB54 /* ContentView.swift */,
 				C61C47EF2758617500E6EB54 /* Assets.xcassets */,
 				C61C47F12758617500E6EB54 /* Preview Content */,
+				C61C481827586BCF00E6EB54 /* Constants.swift */,
 			);
 			path = SkateMapper3;
 			sourceTree = "<group>";
@@ -125,6 +131,14 @@
 				C61C48082758617500E6EB54 /* SkateMapper3UITestsLaunchTests.swift */,
 			);
 			path = SkateMapper3UITests;
+			sourceTree = "<group>";
+		};
+		C61C4815275865BE00E6EB54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C61C4816275865CC00E6EB54 /* Park.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61C4817275865CC00E6EB54 /* Park.swift in Sources */,
 				C61C47EE2758617400E6EB54 /* ContentView.swift in Sources */,
 				C61C47EC2758617400E6EB54 /* SkateMapper3App.swift in Sources */,
+				C61C481927586BCF00E6EB54 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +435,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SkateMapper3/Preview Content\"";
-				DEVELOPMENT_TEAM = 3W7GMD637Q;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -448,7 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SkateMapper3/Preview Content\"";
-				DEVELOPMENT_TEAM = 3W7GMD637Q;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
