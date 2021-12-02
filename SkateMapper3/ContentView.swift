@@ -12,17 +12,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                
                 ForEach(vm.parks) { state in
-                    
-            
                     Section(state.id){
-                        
-                
-                        
                         ForEach(state.parks) { park in
-                            
-                            
                             NavigationLink(destination: DetailView(park: park)) {
                                 Text(park.name)
                             }
