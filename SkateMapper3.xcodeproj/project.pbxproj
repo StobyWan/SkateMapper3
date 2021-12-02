@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C61C47EC2758617400E6EB54 /* SkateMapper3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C47EB2758617400E6EB54 /* SkateMapper3App.swift */; };
+		C61C47EE2758617400E6EB54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C47ED2758617400E6EB54 /* ContentView.swift */; };
+		C61C47F02758617500E6EB54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61C47EF2758617500E6EB54 /* Assets.xcassets */; };
+		C61C47F32758617500E6EB54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61C47F22758617500E6EB54 /* Preview Assets.xcassets */; };
+		C61C47FD2758617500E6EB54 /* SkateMapper3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C47FC2758617500E6EB54 /* SkateMapper3Tests.swift */; };
+		C61C48072758617500E6EB54 /* SkateMapper3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C48062758617500E6EB54 /* SkateMapper3UITests.swift */; };
+		C61C48092758617500E6EB54 /* SkateMapper3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C48082758617500E6EB54 /* SkateMapper3UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C61C47F92758617500E6EB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61C47E02758617400E6EB54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61C47E72758617400E6EB54;
+			remoteInfo = SkateMapper3;
+		};
+		C61C48032758617500E6EB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61C47E02758617400E6EB54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61C47E72758617400E6EB54;
+			remoteInfo = SkateMapper3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C61C47E82758617400E6EB54 /* SkateMapper3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkateMapper3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61C47EB2758617400E6EB54 /* SkateMapper3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateMapper3App.swift; sourceTree = "<group>"; };
+		C61C47ED2758617400E6EB54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C61C47EF2758617500E6EB54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C61C47F22758617500E6EB54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C61C47F82758617500E6EB54 /* SkateMapper3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkateMapper3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61C47FC2758617500E6EB54 /* SkateMapper3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateMapper3Tests.swift; sourceTree = "<group>"; };
+		C61C48022758617500E6EB54 /* SkateMapper3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkateMapper3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61C48062758617500E6EB54 /* SkateMapper3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateMapper3UITests.swift; sourceTree = "<group>"; };
+		C61C48082758617500E6EB54 /* SkateMapper3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateMapper3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C61C47E52758617400E6EB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61C47F52758617500E6EB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61C47FF2758617500E6EB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C61C47DF2758617400E6EB54 = {
+			isa = PBXGroup;
+			children = (
+				C61C47EA2758617400E6EB54 /* SkateMapper3 */,
+				C61C47FB2758617500E6EB54 /* SkateMapper3Tests */,
+				C61C48052758617500E6EB54 /* SkateMapper3UITests */,
+				C61C47E92758617400E6EB54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C61C47E92758617400E6EB54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C61C47E82758617400E6EB54 /* SkateMapper3.app */,
+				C61C47F82758617500E6EB54 /* SkateMapper3Tests.xctest */,
+				C61C48022758617500E6EB54 /* SkateMapper3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C61C47EA2758617400E6EB54 /* SkateMapper3 */ = {
+			isa = PBXGroup;
+			children = (
+				C61C47EB2758617400E6EB54 /* SkateMapper3App.swift */,
+				C61C47ED2758617400E6EB54 /* ContentView.swift */,
+				C61C47EF2758617500E6EB54 /* Assets.xcassets */,
+				C61C47F12758617500E6EB54 /* Preview Content */,
+			);
+			path = SkateMapper3;
+			sourceTree = "<group>";
+		};
+		C61C47F12758617500E6EB54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C61C47F22758617500E6EB54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C61C47FB2758617500E6EB54 /* SkateMapper3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C61C47FC2758617500E6EB54 /* SkateMapper3Tests.swift */,
+			);
+			path = SkateMapper3Tests;
+			sourceTree = "<group>";
+		};
+		C61C48052758617500E6EB54 /* SkateMapper3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C61C48062758617500E6EB54 /* SkateMapper3UITests.swift */,
+				C61C48082758617500E6EB54 /* SkateMapper3UITestsLaunchTests.swift */,
+			);
+			path = SkateMapper3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C61C47E72758617400E6EB54 /* SkateMapper3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61C480C2758617500E6EB54 /* Build configuration list for PBXNativeTarget "SkateMapper3" */;
+			buildPhases = (
+				C61C47E42758617400E6EB54 /* Sources */,
+				C61C47E52758617400E6EB54 /* Frameworks */,
+				C61C47E62758617400E6EB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkateMapper3;
+			productName = SkateMapper3;
+			productReference = C61C47E82758617400E6EB54 /* SkateMapper3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C61C47F72758617500E6EB54 /* SkateMapper3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61C480F2758617500E6EB54 /* Build configuration list for PBXNativeTarget "SkateMapper3Tests" */;
+			buildPhases = (
+				C61C47F42758617500E6EB54 /* Sources */,
+				C61C47F52758617500E6EB54 /* Frameworks */,
+				C61C47F62758617500E6EB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61C47FA2758617500E6EB54 /* PBXTargetDependency */,
+			);
+			name = SkateMapper3Tests;
+			productName = SkateMapper3Tests;
+			productReference = C61C47F82758617500E6EB54 /* SkateMapper3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C61C48012758617500E6EB54 /* SkateMapper3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61C48122758617500E6EB54 /* Build configuration list for PBXNativeTarget "SkateMapper3UITests" */;
+			buildPhases = (
+				C61C47FE2758617500E6EB54 /* Sources */,
+				C61C47FF2758617500E6EB54 /* Frameworks */,
+				C61C48002758617500E6EB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61C48042758617500E6EB54 /* PBXTargetDependency */,
+			);
+			name = SkateMapper3UITests;
+			productName = SkateMapper3UITests;
+			productReference = C61C48022758617500E6EB54 /* SkateMapper3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C61C47E02758617400E6EB54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C61C47E72758617400E6EB54 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					C61C47F72758617500E6EB54 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C61C47E72758617400E6EB54;
+					};
+					C61C48012758617500E6EB54 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C61C47E72758617400E6EB54;
+					};
+				};
+			};
+			buildConfigurationList = C61C47E32758617400E6EB54 /* Build configuration list for PBXProject "SkateMapper3" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C61C47DF2758617400E6EB54;
+			productRefGroup = C61C47E92758617400E6EB54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C61C47E72758617400E6EB54 /* SkateMapper3 */,
+				C61C47F72758617500E6EB54 /* SkateMapper3Tests */,
+				C61C48012758617500E6EB54 /* SkateMapper3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C61C47E62758617400E6EB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61C47F32758617500E6EB54 /* Preview Assets.xcassets in Resources */,
+				C61C47F02758617500E6EB54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61C47F62758617500E6EB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61C48002758617500E6EB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C61C47E42758617400E6EB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61C47EE2758617400E6EB54 /* ContentView.swift in Sources */,
+				C61C47EC2758617400E6EB54 /* SkateMapper3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61C47F42758617500E6EB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61C47FD2758617500E6EB54 /* SkateMapper3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61C47FE2758617500E6EB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61C48092758617500E6EB54 /* SkateMapper3UITestsLaunchTests.swift in Sources */,
+				C61C48072758617500E6EB54 /* SkateMapper3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C61C47FA2758617500E6EB54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61C47E72758617400E6EB54 /* SkateMapper3 */;
+			targetProxy = C61C47F92758617500E6EB54 /* PBXContainerItemProxy */;
+		};
+		C61C48042758617500E6EB54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61C47E72758617400E6EB54 /* SkateMapper3 */;
+			targetProxy = C61C48032758617500E6EB54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C61C480A2758617500E6EB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C61C480B2758617500E6EB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C61C480D2758617500E6EB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkateMapper3/Preview Content\"";
+				DEVELOPMENT_TEAM = 3W7GMD637Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.appform.SkateMapper3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C61C480E2758617500E6EB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkateMapper3/Preview Content\"";
+				DEVELOPMENT_TEAM = 3W7GMD637Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.appform.SkateMapper3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C61C48102758617500E6EB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W7GMD637Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.appform.SkateMapper3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkateMapper3.app/SkateMapper3";
+			};
+			name = Debug;
+		};
+		C61C48112758617500E6EB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W7GMD637Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.appform.SkateMapper3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkateMapper3.app/SkateMapper3";
+			};
+			name = Release;
+		};
+		C61C48132758617500E6EB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W7GMD637Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.appform.SkateMapper3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkateMapper3;
+			};
+			name = Debug;
+		};
+		C61C48142758617500E6EB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W7GMD637Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.appform.SkateMapper3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkateMapper3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C61C47E32758617400E6EB54 /* Build configuration list for PBXProject "SkateMapper3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61C480A2758617500E6EB54 /* Debug */,
+				C61C480B2758617500E6EB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61C480C2758617500E6EB54 /* Build configuration list for PBXNativeTarget "SkateMapper3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61C480D2758617500E6EB54 /* Debug */,
+				C61C480E2758617500E6EB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61C480F2758617500E6EB54 /* Build configuration list for PBXNativeTarget "SkateMapper3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61C48102758617500E6EB54 /* Debug */,
+				C61C48112758617500E6EB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61C48122758617500E6EB54 /* Build configuration list for PBXNativeTarget "SkateMapper3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61C48132758617500E6EB54 /* Debug */,
+				C61C48142758617500E6EB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C61C47E02758617400E6EB54 /* Project object */;
+}
