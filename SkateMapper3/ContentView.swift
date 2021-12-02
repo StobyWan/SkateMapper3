@@ -22,8 +22,10 @@ struct ContentView: View {
                     }
                 }
             }
+            
             .listStyle(PlainListStyle())
         }
+        .accentColor( .black)
         .task {
             await vm.fetchData()
         }
