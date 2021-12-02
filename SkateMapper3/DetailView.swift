@@ -16,10 +16,15 @@ struct DetailView: View {
         VStack{
             Map(coordinateRegion: $region, interactionModes: .all, showsUserLocation: true, userTrackingMode: $trackingMode, annotationItems: [park]) { (location) -> MapPin in
                 MapPin(coordinate: location.getCoord(), tint: .black)
-            }.edgesIgnoringSafeArea(.all)
-            Text(park.name).onAppear{
-                region.center = CLLocationCoordinate2D(latitude: Double(park.latitude)!, longitude: Double(park.longitude)!)
             }
+            .onAppear {
+                if let lat = Double(park.latitude), let lng = Double(park.longitude) {
+                    region.center = CLLocationCoordinate2D(latitude: lat, longitude: lng)
+                }
+            }
+            .edgesIgnoringSafeArea(.all)
+            Text(park.name)
+               
         }
     }
 }
